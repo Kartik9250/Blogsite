@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
-
+    <link rel="icon" href="/media/logo.png" type="image/icon type">
 	{% if title %}
 		<title>Blog site :3  - {{ title }}</title>
 	{% else %}
@@ -23,6 +23,7 @@
 	<header class="site-header">
 	  <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
 	    <div class="container">
+	    	<img class="p-1" src="/media/logo.png">
 	      <a class="navbar-brand mr-4" href="/">Blog site :3</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
@@ -47,7 +48,6 @@
 	    </div>
 	  </nav>
 	</header>
-
 	<main role="main" class="container">
 	  <div class="row">
 	    <div class="col-md-8">
