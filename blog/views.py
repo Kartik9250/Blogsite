@@ -12,10 +12,7 @@ from django.views.generic import (
 
 
 def home(request):
-	context = {
-		'posts': Post.objects.all()
-	}
-	return render(request, 'blog/home.html', context)
+	return render(request, 'blog/frontendwork/timdog.html')
 
 
 class PostListView(ListView):
@@ -79,5 +76,5 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 
 def about(request):
-	return render(request, 'blog/about.html', {'title': 'About'})
+	return render(request, 'blog/frontendwork/timdog.html', {'title': 'About'})
 	

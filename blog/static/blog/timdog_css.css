@@ -1,0 +1,130 @@
+#title{
+   background-color: #ff4c68;
+   font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+   padding: 3% 14% 7%; /* 3%- top and bottom , 14%- left and right*/
+}
+h1{
+   font-family: 'Comfortaa', cursive;
+   font-size: 3rem;
+   line-height: 1.5;
+   font-weight: bold;
+}
+body{
+   font-family: 'Montserrat';
+}
+.navbar{
+   padding-bottom: 4rem ;
+}
+.navbar-brand{
+   font-size:2rem;
+   font-weight: bold;
+}
+.nav-item{
+   padding: 0px 18px;
+}
+.nav-link{
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.download-btn{
+   margin: 5% 3% 5% 0;
+}
+.doggie{
+   width: 60%;
+   transform: rotate(20deg); /* rotating the image*/
+   position: absolute;
+   right: 20%; /*padding towards right*/
+}
+@media (max-width:1028px){
+   #title{
+      text-align: center ;
+   }
+   .doggie{
+      position:static;
+      transform: rotate(0);
+   }
+}
+#features{
+   padding: 8% 16% ;
+   background-color: #fff;
+   position: relative;
+   z-index: 1; /*z-index*/
+}
+.feature_style{
+   padding: 4%;
+   text-align: center;
+   font-family: 'Montserrat';
+}
+h3{
+   font-weight: bold;
+   font-family: 'Comfortaa', cursive;
+}
+p{
+   color: gray;
+}
+.feature_icons{
+   color: #ff4c68;
+   padding-bottom: 6%;
+}
+.feature_icons:hover{
+   color:#ff042a;
+}
+#testimonials{
+
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.carousel-item{
+   padding: 8% 16%;
+}
+.testimonials_h2{
+   color: #fff;
+   font-family: 'Montserrat-Bold';
+   line-height: 1.2;
+   font-size: 2rem;
+}
+.dog_img{
+   width: 20%;
+   border-radius: 200%;
+   margin: 20px;
+}
+#press{
+   background-color: #ff4c68;
+   text-align: center;
+   padding-bottom:4%;
+}
+.press_img{
+   width: 14%;
+   margin:18px 20px 40px;
+}
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+.pricing_col{
+   padding:3% 2%;
+}
+h2{
+   font-family:'Montserrat-Bold' ;
+}
+#final{
+   background-color: #ff4c68;
+   text-align: center;
+   padding: 8% 16%;
+}
+.h3_style{
+   font-family: 'Comfortaa', cursive;
+}
+.download-btn2{
+   margin: 5% 3% 5% 0;
+}
+#footer{
+   text-align: center;
+   padding: 8% 16%;
+}
+.social_media-icons{
+   margin: 20px 10px;
+}
